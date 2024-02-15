@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+  }
+  
+  .menu,
+  .logo,
+  .search-box,
+  .store-locator,
+  .sign-in,
+  .shopping-bag,
+  .site-dropdown {
+    margin-right: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+  }
+  
+  .search-box input {
+    padding: 0.5rem;
+    margin-right: 5px;
+  }
+  
